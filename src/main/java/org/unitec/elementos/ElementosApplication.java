@@ -32,20 +32,24 @@ public class ElementosApplication implements CommandLineRunner {
 
 //#4
       //  repoU.save(new Usuario(3, "Minina"));
-    //clase 10        
-       /*   for(Usuario u:repoU.findAll()){
+    //clase 10   /
+    
+          for(Usuario u:repoU.findAll()){
           
               System.out.println(u);
          }
-       */
+       
             
            //System.out.println(repoU.findById(2).get());
            
-          /*repoU.save(new Usuario(4,"Raymundo"));
-           System.out.println(repoU.findById(1).get());*/
+           
+          //repoU.save(new Usuario(4,"Raymundo"));
+           //System.out.println(repoU.findById(1).get());
           // repoU.deleteById(1);
-         /* 
-          for(Usuario u: repoU.findByNombre("Raymundo")){
+          
+         
+          /*
+          for(Usuario u: repoU.findByNombre("Juan Dainiz")){
           
               System.out.println(u);
           }*/
@@ -54,3 +58,10 @@ public class ElementosApplication implements CommandLineRunner {
 
 }
 
+/*
+System.out.print("\nOcupantes: ");
+                int ocupantes =coche.nextInt();
+
+
+
+*/

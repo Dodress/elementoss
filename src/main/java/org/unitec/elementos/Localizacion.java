@@ -10,28 +10,30 @@ package org.unitec.elementos;
  * @author jdnsp
  */
 public class Localizacion {
-    long lat;
-    long lon;
+    double lat;
+    double lon;
 
      public Localizacion() {
         
     }
-     
-    public long getLat() {
+
+    public double getLat() {
         return lat;
     }
 
-    public long getLon() {
-        return lon;
-    }
-
-    public void setLat(long lat) {
+    public void setLat(double lat) {
         this.lat = lat;
     }
 
-    public void setLon(long lon) {
+    public double getLon() {
+        return lon;
+    }
+
+    public void setLon(double lon) {
         this.lon = lon;
     }
+     
+  
 
    
     
